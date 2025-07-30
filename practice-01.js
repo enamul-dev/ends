@@ -36,9 +36,9 @@ console.log(a);
 
 // Loops
 
-for (let i = 1; i <= 10; i++) {
+for (let i = 1; i <= 5; i++) {
   console.log(`Outer loop value: ${i}`);
-  for (let j = 1; j <= 10; j++) {
+  for (let j = 1; j <= 5; j++) {
     console.log(i + "*" + j + " = " + i * j);
   }
 }
@@ -52,3 +52,9 @@ if ((burger = 500)) {
 }
 
 // test
+
+// a function is a reusable block of code.
+
+// defer attribute - js runs after the html is completely loaded. it goes into script tag.
+
+// compelling consumers.
